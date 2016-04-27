@@ -1,3 +1,4 @@
+
 public class PrintCMDArguments {
 	public static void main(String[] args){
 		int size = args.length;

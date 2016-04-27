@@ -9,7 +9,7 @@ public class PrintCMDArguments {
 			}
 		}
 		else if(size < 3){
-			System.out.println("It has to be minimum of 3 numbers, please rerun.");
+			System.out.println("It has to be minimum of 3 arguments, please rerun.");
 		}
 		else if(size > 3){
 			System.out.println("Error encountered, only 3 arguments are allowed");

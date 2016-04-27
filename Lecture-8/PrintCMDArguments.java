@@ -1,3 +1,4 @@
+
 public class PrintCMDArguments {
 	//this file is run from the command line
 	public static void main(String[] args){

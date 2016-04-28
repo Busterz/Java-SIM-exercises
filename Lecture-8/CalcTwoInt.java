@@ -1,3 +1,7 @@
+/*
+Write a program to take in 3 cmd arguments with 1st and 3rd being an int while 2nd argument is an arithmetic operator.
+The program will print out the result of the calculation if the inputs are correct.
+*/
 public class CalcTwoInt{
     //this file is run from the command line
     public static void main(String[] args){

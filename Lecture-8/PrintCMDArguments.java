@@ -1,4 +1,5 @@
-
+/* Write a java program to take in 3 cmd arguments and print the 3 arguments
+Only works if there are exactly 3 arguments, else error message will be printed. */
 public class PrintCMDArguments {
 	//this file is run from the command line
 	public static void main(String[] args){

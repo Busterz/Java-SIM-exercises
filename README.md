@@ -1,5 +1,5 @@
 #Welcome to Java Exercises
 
-Currently there is only Lecture 8 exercises
+This repository contains answers to some of the questions. Use it as *references* if need to.
 
-######Disclaimer: These answers are only meant to help other students as references for their work
+:exclamation: **Disclaimer**:These answers and documents are only meant to help other students as references for their work

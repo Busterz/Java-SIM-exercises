@@ -1,4 +1,4 @@
-# Welcome to Java SIM Exercises
+# Welcome!
 
 This repository contains answers to some of the questions. Use it as *references* if needed to.
 

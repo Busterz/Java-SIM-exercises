@@ -1,30 +1,30 @@
-1. (a) (i) x==3 and not x=3 <br>
-       &nbsp; &nbsp; &nbsp;(ii) x is declared twice <br>
-       &nbsp; &nbsp; &nbsp;(iii) int s = 2 or String s = *string*
+#### Question 1
+(a) (i) x==3 and not x=3 <br>
+    &nbsp; &nbsp; &nbsp;(ii) x is declared twice <br>
+    &nbsp; &nbsp; &nbsp;(iii) int s = 2 or String s = *string*
        
-   (b) (i)
-       ```java
-       public static int powerA(int a, int b){
-         int p = 1;
-         for(int i=0; i<b; i++){
-           p = prod(powerA, a);     //p *= a;
-         }
-         return p;
-       }
-       ```
-      
-       &nbsp; &nbsp; &nbsp;(ii)
-       ```java
-       public static int powerB(int a, int b){
-         if(b==0) return 1;
-         if(b==1) return a;
-         if(b!=0 && b!=1){
-           return a*powerB(a, b-1);
-         }
-       }
-       ```
+(b) (i) </br>
+```java
+public static int powerA(int a, int b){
+     int p = 1;
+     for(int i=0; i<b; i++){
+          p = prod(powerA, a);     //p *= a;
+     }
+     return p;
+}
+```
+&nbsp; &nbsp; &nbsp;(ii)
+```java
+public static int powerB(int a, int b){
+     if(b==0) return 1;
+     if(b==1) return a;
+     if(b!=0 && b!=1){
+          return a*powerB(a, b-1);
+     }
+}
+```
        
-   (c)
+(c)
    ```java
    public static void Pattern(){
       int n=4;
@@ -48,25 +48,24 @@
        &nbsp; &nbsp; &nbsp;(iii) true
        
    (b) (i)
-       ```java
-       public class Sumx{
-         public static void main(String[] args){
-           int sum = 0;
-           int size = args.length;
-           int[] n = new int[size];
-           for(int j=o; j<size; j++){
-            n[j] = Integer.parseInt(args[j]);
-           }
-           for(int i=0; i<size; i++){
-            sum += n[i];
-           }
-           System.out.println("The sum is: " + sum);
-         }
-       }
-       ```
-      
-       &nbsp; &nbsp; &nbsp;(ii)
-       ```java
+```java
+public class Sumx{
+     public static void main(String[] args){
+          int sum = 0;
+          int size = args.length;
+          int[] n = new int[size];
+          for(int j=o; j<size; j++){
+               n[j] = Integer.parseInt(args[j]);
+          }
+          for(int i=0; i<size; i++){
+               sum += n[i];
+          }
+          System.out.println("The sum is: " + sum);
+     }
+}
+```
+   &nbsp; &nbsp; &nbsp;(ii)
+```java
        public static void CopyMe(){
          Scanner in = new Scanner(new FileReader("book1.txt");
          PrintWriter write = new PrintWriter(new FileOutputStream("book2.txt"));
@@ -76,7 +75,7 @@
          in.close();
          write.close();
        }
-       ```
+```
        
    (c)
    ```java
@@ -120,7 +119,7 @@
        &nbsp; &nbsp; &nbsp;(iii) 3
        
     (b)
-       ```java
+```java
        public class Cube extends Rectangle{
          private double height;
          
@@ -139,7 +138,7 @@
            System.out.println("Height: " + height);
          }
        }
-       ```   
+```   
        
-    (c) (i) Cube myCube = new Cube(length, width, height); <br>
-        &nbsp; &nbsp; &nbsp;(ii) System.out.println("The surface area is: " + myCube.getSurfArea());
+    (c) (i) Cube myCube = new Cube(length, width, height);
+        (ii) System.out.println("The surface area is: " + myCube.getSurfArea());
